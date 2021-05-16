@@ -6,17 +6,13 @@ if ($_SERVER['REQUEST_METHOD'] =='POST'){
 	//$name = $_POST['name'];
 	//$username = $_POST['username'];
     $body_plate = $_POST['body_plate'];
-	$date = $_POST['date'];
-    $time = $_POST['time'];
-	$narrative = $_POST['narrative'];
+	//$ratings = $_POST['ratings'];
+	//$narrative = $_POST['status'];
 	$vehicle = $_POST['vehicle'];
-	$file = $_POST['file'];
-	$filename = "COMPLAINT_".rand().".jpg";
-	file_put_contents("images/complaints_images/".$filename,base64_decode($file));
-	
+
     require_once 'connect.php';
 
-    $sql = "INSERT INTO complaints (user_id, body_plate, narrative, date, time, vehicle, file) VALUES ('$user_id', '$body_plate', '$narrative', '$date', '$time', '$vehicle', '$filename')";
+    $sql = "INSERT INTO puvs (admin_id, body_plate, vehicle, name, status, address, phone_number) VALUES ('$user_id', '$body_plate', '$vehicle', '(NO INPUT)', 'Colorum', '(NO INPUT)', '(NO INPUT)')";
 
     if ( mysqli_query($conn, $sql) ) {
         $result["success"] = "1";

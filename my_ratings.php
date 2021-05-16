@@ -8,11 +8,11 @@
 		die('Unable to connect to datebase ' . mysqli_connect_error());
 	}
 	
-	$stmt = $conn->prepare("SELECT vehicle, body_plate, narrative FROM reviews WHERE user_id='1';");
+	$stmt = $conn->prepare("SELECT vehicle, body_plate, narrative, ratings FROM reviews WHERE user_id='1';");
 	
 	$stmt->execute();
 	
-	$stmt->bind_result($vehicle, $body_plate, $narrative);
+	$stmt->bind_result($vehicle, $body_plate, $narrative, $ratings);
  
  $products = array(); 
  
@@ -22,6 +22,7 @@
  $temp['vehicle'] = $vehicle; 
  $temp['body_plate'] = $body_plate;
  $temp['narrative'] = $narrative; 
+ $temp['ratings'] = $ratings; 
  array_push($products, $temp);
  }
  
