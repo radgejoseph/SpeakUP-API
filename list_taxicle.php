@@ -13,16 +13,16 @@
 	
 	$stmt->bind_result($vehicle, $body_plate);
  
- $products = array(); 
+ $items = array(); 
  
  //traversing through all the result 
  while($stmt->fetch()){
  $temp = array();
  $temp['vehicle'] = $vehicle; 
  $temp['body_plate'] = $body_plate; 
- array_push($products, $temp);
+ array_push($items, $temp);
  }
  
  //displaying the result in json format 
- echo json_encode($products);
+ echo json_encode($items);
  ?>

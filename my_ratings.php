@@ -1,7 +1,5 @@
 <?php
 
-	//$id = $_POST['id'];
-	
     require_once 'connect.php';
 
 	if (mysqli_connect_errno()){
@@ -14,7 +12,7 @@
 	
 	$stmt->bind_result($vehicle, $body_plate, $narrative, $ratings);
  
- $products = array(); 
+ $items = array(); 
  
  //traversing through all the result 
  while($stmt->fetch()){
@@ -23,9 +21,9 @@
  $temp['body_plate'] = $body_plate;
  $temp['narrative'] = $narrative; 
  $temp['ratings'] = $ratings; 
- array_push($products, $temp);
+ array_push($items, $temp);
  }
  
  //displaying the result in json format 
- echo json_encode($products);
+ echo json_encode($items);
  ?>
