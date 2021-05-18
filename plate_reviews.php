@@ -1,6 +1,6 @@
 <?php
 
-$id = $_POST['id'];
+$selected_body_plate = $_POST['body_plate'];
 
     require_once 'connect.php';
 
@@ -9,21 +9,24 @@ $id = $_POST['id'];
 	}
 	
 	//$stmt = $conn->prepare("SELECT vehicle, body_plate, narrative, ratings FROM reviews WHERE user_id='1';");
-	$stmt = $conn->prepare("SELECT vehicle, body_plate, narrative, ratings FROM reviews WHERE user_id='$id';");
+	$stmt = $conn->prepare("SELECT reviews.narrative, reviews.ratings, appusers.username FROM reviews INNER JOIN appusers ON reviews.user_id=appusers.id WHERE body_plate='$selected_body_plate';");
+	
 	
 	$stmt->execute();
 	
-	$stmt->bind_result($vehicle, $body_plate, $narrative, $ratings);
+	//$stmt->bind_result($vehicle, $body_plate, $narrative, $ratings, $username);
+	$stmt->bind_result($narrative, $ratings, $username);
  
  $items = array(); 
  
  //traversing through all the result 
  while($stmt->fetch()){
  $temp = array();
- $temp['vehicle'] = $vehicle; 
- $temp['body_plate'] = $body_plate;
+ //$temp['vehicle'] = $vehicle; 
+ //$temp['body_plate'] = $body_plate;
  $temp['narrative'] = $narrative; 
- $temp['ratings'] = $ratings; 
+ $temp['ratings'] = $ratings;
+ $temp['username'] = $username;
  array_push($items, $temp);
  }
  
