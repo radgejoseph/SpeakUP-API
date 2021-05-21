@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
 
     require_once 'connect.php';
 
-    $sql = "SELECT * FROM appusers WHERE username='$username' ";
+    $sql = "SELECT * FROM mobileappusers WHERE username='$username' ";
 
     $response = mysqli_query($conn, $sql);
 

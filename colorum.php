@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] =='POST'){
 
     require_once 'connect.php';
 
-    $sql = "INSERT INTO puvs (admin_id, body_plate, vehicle, name, status, address, phone_number) VALUES ('$user_id', '$body_plate', '$vehicle', '(NO INPUT)', 'Colorum', '(NO INPUT)', '(NO INPUT)')";
+    $sql = "INSERT INTO vehicles (admin_id, body_plate, vehicle, name, status, address, phone_number) VALUES ('$user_id', '$body_plate', '$vehicle', '(NO INPUT)', 'Colorum', '(NO INPUT)', '(NO INPUT)')";
 
     if ( mysqli_query($conn, $sql) ) {
         $result["success"] = "1";

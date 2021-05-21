@@ -14,7 +14,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
     require_once 'connect.php';
 
-    $sql = "UPDATE appusers SET name='$name', username='$username', password='$password', phone_number='$phone_number', email='$email', address='$address' WHERE id='$id' ";
+    $sql = "UPDATE mobileappusers SET name='$name', username='$username', password='$password', phone_number='$phone_number', email='$email', address='$address' WHERE id='$id' ";
 
     if(mysqli_query($conn, $sql)) {
 

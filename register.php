@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] =='POST'){
     $password = password_hash($password, PASSWORD_DEFAULT);
     require_once 'connect.php';
 
-    $sql = "INSERT INTO appusers (name, username, password, phone_number, email, address, status) 
+    $sql = "INSERT INTO mobileappusers (name, username, password, phone_number, email, address, status) 
 	VALUES ('$name', '$username', '$password', '$phone_number', '$email', '$address', 'Not Verified')";
 
     if ( mysqli_query($conn, $sql) ) {

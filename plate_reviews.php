@@ -9,7 +9,7 @@ $body_plate = $_POST['body_plate'];
 	}
 	
 	//$stmt = $conn->prepare("SELECT vehicle, body_plate, narrative, ratings FROM reviews WHERE user_id='1';");
-	$stmt = $conn->prepare("SELECT reviews.narrative, reviews.ratings, appusers.username FROM reviews INNER JOIN appusers ON reviews.user_id=appusers.id WHERE body_plate='$body_plate';");
+	$stmt = $conn->prepare("SELECT reviews.narrative, reviews.ratings, mobileappusers.username FROM reviews INNER JOIN mobileappusers ON reviews.user_id=mobileappusers.id WHERE body_plate='$body_plate';");
 	
 	$stmt->execute();
 	

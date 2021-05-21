@@ -7,7 +7,7 @@
 	}
 	
 	//$stmt = $conn->prepare("SELECT vehicle, body_plate FROM puvs WHERE vehicle='jeep';");
-	$stmt = $conn->prepare("SELECT puvs.vehicle, puvs.body_plate, IFNULL(ROUND(AVG(reviews.ratings)),0) FROM puvs LEFT JOIN reviews ON puvs.body_plate=reviews.body_plate  WHERE puvs.vehicle='tricycle' GROUP BY puvs.body_plate;");
+    $stmt = $conn->prepare("SELECT vehicles.vehicle, vehicles.body_plate, IFNULL(ROUND(AVG(reviews.ratings)),0) FROM vehicles LEFT JOIN reviews ON vehicles.body_plate=reviews.body_plate  WHERE vehicles.vehicle='tricycle' GROUP BY vehicles.body_plate;");
 
 	$stmt->execute();
 	
