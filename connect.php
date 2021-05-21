@@ -7,5 +7,4 @@ $conn = mysqli_connect(
     "fiDmb2Jzyd",
     "fKjE0CChQb",
     "3306");
-
 ?>
