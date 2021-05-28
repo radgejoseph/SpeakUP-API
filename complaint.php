@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] =='POST'){
 	$narrative = $_POST['narrative'];
 	$vehicle = $_POST['vehicle'];
 	$file = $_POST['file'];
-	$filename = "COMPLAINT_".rand().".jpg";
+    $filename = "Complaint_UserID".$user_id."_".rand().".jpg";
 	file_put_contents("images/complaints_images/".$filename,base64_decode($file));
 	
     require_once 'connect.php';
