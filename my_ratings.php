@@ -7,8 +7,7 @@ $id = $_POST['id'];
 	if (mysqli_connect_errno()){
 		die('Unable to connect to datebase ' . mysqli_connect_error());
 	}
-	
-	//$stmt = $conn->prepare("SELECT vehicle, body_plate, narrative, ratings FROM reviews WHERE user_id='1';");
+
 	$stmt = $conn->prepare("SELECT vehicle, body_plate, narrative, ratings FROM reviews WHERE user_id='$id';");
 	
 	$stmt->execute();
@@ -16,8 +15,7 @@ $id = $_POST['id'];
 	$stmt->bind_result($vehicle, $body_plate, $narrative, $ratings);
  
  $items = array(); 
- 
- //traversing through all the result 
+
  while($stmt->fetch()){
  $temp = array();
  $temp['vehicle'] = $vehicle;
@@ -26,7 +24,7 @@ $id = $_POST['id'];
  $temp['ratings'] = $ratings; 
  array_push($items, $temp);
  }
- 
- //displaying the result in json format 
+
  echo json_encode($items);
+
  ?>

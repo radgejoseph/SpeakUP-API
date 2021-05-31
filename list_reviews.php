@@ -17,16 +17,14 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
 	$stmt->bind_result($user_id, $narrative);
  
  $products = array(); 
- 
- //traversing through all the result 
+
  while($stmt->fetch()){
  $temp = array();
  $temp['user_id'] = $user_id; 
  $temp['narrative'] = $narrative; 
  array_push($products, $temp);
  }
- 
- //displaying the result in json format 
+
  echo json_encode($products);
  
  }else {

@@ -21,11 +21,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
         if ( password_verify($password, $row['password']) ) {
             
             $index['name'] = $row['name'];
-            //$index['username'] = $row['username'];
-			//$index['password'] = $row['password'];
-			//$index['mobile'] = $row['mobile'];
 			$index['email'] = $row['email'];
-			//$index['address'] = $row['address'];
             $index['id'] = $row['id'];
 
             array_push($result['login'], $index);

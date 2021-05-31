@@ -3,11 +3,7 @@
 if ($_SERVER['REQUEST_METHOD'] =='POST'){
 
 	$user_id = $_POST['user_id'];
-	//$name = $_POST['name'];
-	//$username = $_POST['username'];
     $body_plate = $_POST['body_plate'];
-	//$ratings = $_POST['ratings'];
-	//$narrative = $_POST['status'];
 	$vehicle = $_POST['vehicle'];
 
     require_once 'connect.php';

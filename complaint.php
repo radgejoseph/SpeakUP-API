@@ -3,8 +3,6 @@
 if ($_SERVER['REQUEST_METHOD'] =='POST'){
 
 	$user_id = $_POST['user_id'];
-	//$name = $_POST['name'];
-	//$username = $_POST['username'];
     $body_plate = $_POST['body_plate'];
 	$date = $_POST['date'];
     $time = $_POST['time'];

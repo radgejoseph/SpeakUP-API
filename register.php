@@ -1,6 +1,6 @@
 <?php
 
-//if ($_SERVER['REQUEST_METHOD'] =='POST') {
+if ($_SERVER['REQUEST_METHOD']=='POST') {
 
 //    $name = $_POST['name'];
 //    $username = $_POST['username'];
@@ -20,25 +20,36 @@
 
     $password = password_hash($password, PASSWORD_DEFAULT);
 
+    $user_sql = "SELECT * FROM mobileappusers WHERE username='$username' ";
+
+    $response = mysqli_query($conn, $user_sql);
+
     $sql = "INSERT INTO mobileappusers (name, username, password, phone_number, email, address, status) 
     VALUES ('$name', '$username', '$password', '$phone_number', '$email', '$address', 'Not Verified')";
 
-    if (mysqli_query($conn, $sql)) {
+    if ( mysqli_num_rows($response) === 1 ) {
 
-        $result["success"] = "1";
-        $result["message"] = "success";
-
-        echo json_encode($result);
+        echo json_encode("Username already exist");
         mysqli_close($conn);
-
     }
     else {
+        if (mysqli_query($conn, $sql)) {
 
-        $result["success"] = "0";
-        $result["message"] = "error";
+            $result["success"] = "1";
+            $result["message"] = "success";
 
-        echo json_encode($result);
-        mysqli_close($conn);
+            echo json_encode($result);
+            mysqli_close($conn);
+
+        }
+        else {
+
+            $result["success"] = "0";
+            $result["message"] = "error";
+
+            echo json_encode($result);
+            mysqli_close($conn);
+        }
     }
-//}
+}
 ?>
