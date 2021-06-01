@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] =='POST'){
 	
     require_once 'connect.php';
 
-    $sql = "INSERT INTO complaints (user_id, body_plate, narrative, date, time, vehicle, file) VALUES ('$user_id', '$body_plate', '$narrative', '$date', '$time', '$vehicle', '$filename')";
+    $sql = "INSERT INTO complaints (user_id, body_plate, narrative, date, time, vehicle, file, status) VALUES ('$user_id', '$body_plate', '$narrative', '$date', '$time', '$vehicle', '$filename', 'pending')";
 
     if ( mysqli_query($conn, $sql) ) {
         $result["success"] = "1";
