@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fff6401b-ce93-4fc4-9c3d-171ace152e62" name="Default Changelist" comment="test 11:23" />
+    <list default="true" id="fff6401b-ce93-4fc4-9c3d-171ace152e62" name="Default Changelist" comment="test 11:33" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,12 +16,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
-    <include_path>
-      <path value="$PROJECT_DIR$/vendor/composer" />
-    </include_path>
-  </component>
   <component name="ProjectId" id="1tLbmUXK6Fn3OuR28fBCs76Lre5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,7 +38,8 @@
       <option name="presentableId" value="Default" />
       <updated>1622551477202</updated>
       <workItem from="1622551480262" duration="53000" />
-      <workItem from="1622551546681" duration="5057000" />
+      <workItem from="1622551546681" duration="5604000" />
+      <workItem from="1622561832981" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="test 11:23">
       <created>1622561027475</created>
@@ -58,7 +55,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622561259835</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test 11:33">
+      <created>1622561638752</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622561638752</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,9 +78,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test 11:23" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 11:23" />
+    <MESSAGE value="test 11:33" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 11:33" />
   </component>
 </project>
