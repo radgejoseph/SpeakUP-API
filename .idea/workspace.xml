@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fff6401b-ce93-4fc4-9c3d-171ace152e62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colorum.php" beforeDir="false" afterPath="$PROJECT_DIR$/colorum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complaint.php" beforeDir="false" afterPath="$PROJECT_DIR$/complaint.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
-    </list>
+    <list default="true" id="fff6401b-ce93-4fc4-9c3d-171ace152e62" name="Default Changelist" comment="test 11:23" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +15,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1tLbmUXK6Fn3OuR28fBCs76Lre5" />
   <component name="ProjectViewState">
@@ -43,11 +42,41 @@
       <option name="presentableId" value="Default" />
       <updated>1622551477202</updated>
       <workItem from="1622551480262" duration="53000" />
-      <workItem from="1622551546681" duration="4656000" />
+      <workItem from="1622551546681" duration="5057000" />
     </task>
+    <task id="LOCAL-00001" summary="test 11:23">
+      <created>1622561027475</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622561027475</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test 11:23">
+      <created>1622561259835</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622561259835</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test 11:23" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 11:23" />
   </component>
 </project>
