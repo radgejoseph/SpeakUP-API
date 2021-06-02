@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dabf4705-fbdb-4f13-8311-f867fa6b1925" name="Default Changelist" comment="test 9:58">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dabf4705-fbdb-4f13-8311-f867fa6b1925" name="Default Changelist" comment="test 11:10">
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622563131254</updated>
       <workItem from="1622563132484" duration="2838000" />
-      <workItem from="1622599034225" duration="3699000" />
+      <workItem from="1622599034225" duration="4046000" />
     </task>
     <task id="LOCAL-00001" summary="test 12:00">
       <created>1622563201513</created>
@@ -83,7 +82,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622599399577</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test 11:10">
+      <created>1622603463559</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622603463559</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test 11:10">
+      <created>1622603503008</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622603503008</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test 11:10">
+      <created>1622603563173</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622603563173</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test 12:00" />
     <MESSAGE value="test 9:58" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 9:58" />
+    <MESSAGE value="test 11:10" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 11:10" />
   </component>
 </project>
