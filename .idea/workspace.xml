@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fff6401b-ce93-4fc4-9c3d-171ace152e62" name="Default Changelist" comment="test 11:33" />
+    <list default="true" id="dabf4705-fbdb-4f13-8311-f867fa6b1925" name="Default Changelist" comment="test 12:00">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/connect.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable path="composer" />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="ProjectId" id="1tLbmUXK6Fn3OuR28fBCs76Lre5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1tLzPI8O7LOBVTZb5WzVWTC7PP5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,35 +38,33 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fff6401b-ce93-4fc4-9c3d-171ace152e62" name="Default Changelist" comment="" />
-      <created>1622551477202</created>
+      <changelist id="dabf4705-fbdb-4f13-8311-f867fa6b1925" name="Default Changelist" comment="" />
+      <created>1622563131254</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622551477202</updated>
-      <workItem from="1622551480262" duration="53000" />
-      <workItem from="1622551546681" duration="5604000" />
-      <workItem from="1622561832981" duration="34000" />
+      <updated>1622563131254</updated>
+      <workItem from="1622563132484" duration="2838000" />
     </task>
-    <task id="LOCAL-00001" summary="test 11:23">
-      <created>1622561027475</created>
+    <task id="LOCAL-00001" summary="test 12:00">
+      <created>1622563201513</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1622561027475</updated>
+      <updated>1622563201513</updated>
     </task>
-    <task id="LOCAL-00002" summary="test 11:23">
-      <created>1622561259835</created>
+    <task id="LOCAL-00002" summary="test 12:00">
+      <created>1622563264302</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1622561259835</updated>
+      <updated>1622563264302</updated>
     </task>
-    <task id="LOCAL-00003" summary="test 11:33">
-      <created>1622561638752</created>
+    <task id="LOCAL-00003" summary="test 12:00">
+      <created>1622563336754</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1622561638752</updated>
+      <updated>1622563336754</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
@@ -78,11 +82,9 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test 11:23" />
-    <MESSAGE value="test 11:33" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 11:33" />
+    <MESSAGE value="test 12:00" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 12:00" />
   </component>
 </project>
