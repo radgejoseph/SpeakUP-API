@@ -6,7 +6,7 @@
 		die('Unable to connect to datebase ' . mysqli_connect_error());
 	}
 
-	$stmt = $conn->prepare("SELECT vehicles.vehicle, vehicles.body_plate, IFNULL(ROUND(AVG(reviews.ratings)),0) FROM vehicles LEFT JOIN reviews ON vehicles.body_plate=reviews.body_plate WHERE vehicles.vehicle='jeep' GROUP BY vehicles.body_plate ORDER BY vehicles.created_at DESC;");
+	$stmt = $conn->prepare("SELECT reviews.vehicle, vehicles.body_plate, IFNULL(ROUND(AVG(reviews.ratings)),0) FROM vehicles LEFT JOIN reviews ON reviews.body_plate=vehicles.body_plate WHERE vehicles.vehicle='jeep' GROUP BY vehicles.body_plate ORDER BY reviews.created_at DESC;");
 
 	$stmt->execute();
 	
