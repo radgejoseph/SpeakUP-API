@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dabf4705-fbdb-4f13-8311-f867fa6b1925" name="Default Changelist" comment="update, July 9 2021 composer.json update" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1tLzPI8O7LOBVTZb5WzVWTC7PP5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dabf4705-fbdb-4f13-8311-f867fa6b1925" name="Default Changelist" comment="" />
+      <created>1622563131254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622563131254</updated>
+      <workItem from="1622563132484" duration="2838000" />
+      <workItem from="1622599034225" duration="4812000" />
+      <workItem from="1622722362645" duration="379000" />
+      <workItem from="1622728409318" duration="311000" />
+      <workItem from="1622728793511" duration="3745000" />
+      <workItem from="1624334212089" duration="620000" />
+      <workItem from="1624336444477" duration="52000" />
+      <workItem from="1625831905571" duration="431000" />
+      <workItem from="1625832357489" duration="128000" />
+    </task>
+    <task id="LOCAL-00001" summary="test 12:00">
+      <created>1622563201513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622563201513</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test 12:00">
+      <created>1622563264302</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622563264302</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test 12:00">
+      <created>1622563336754</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622563336754</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test 9:58">
+      <created>1622599087937</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622599087937</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test 9:58">
+      <created>1622599399577</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622599399577</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test 11:10">
+      <created>1622603463559</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622603463559</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test 11:10">
+      <created>1622603503008</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622603503008</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test 11:10">
+      <created>1622603563173</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622603563173</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test 11:20">
+      <created>1622604047500</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622604047500</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test 11:27">
+      <created>1622604458531</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1622604458531</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update, July 9 2021">
+      <created>1625832006554</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1625832006554</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update, July 9 2021">
+      <created>1625832049332</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1625832049332</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update, July 9 2021 composer.json update">
+      <created>1625832475924</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1625832475924</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test 12:00" />
+    <MESSAGE value="test 9:58" />
+    <MESSAGE value="test 11:10" />
+    <MESSAGE value="test 11:20" />
+    <MESSAGE value="test 11:27" />
+    <MESSAGE value="update, July 9 2021" />
+    <MESSAGE value="update, July 9 2021 composer.json update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update, July 9 2021 composer.json update" />
+  </component>
+</project>
